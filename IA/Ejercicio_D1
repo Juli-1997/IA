@@ -1,0 +1,24 @@
+<h1>Barbie</h1>
+
+<!-- 2. Sección Problema -->
+<section id="problema">
+    <p>Aquí escribes un párrafo explicando el problema que resuelve tu IA.</p>
+</section>
+
+<!-- 3. Sección Usuarios -->
+<section id="usuarios">
+    <p>Usuario tipo 1: Estudiantes.</p>
+    <p>Usuario tipo 2: Profesores.</p>
+</section>
+
+<!-- 4. Sección Límites -->
+<section id="limites">
+    <p>Límite 1: No funciona sin internet.</p>
+    <p>Límite 2: Solo responde en español.</p>
+    <p>Límite 3: Máximo 500 palabras por respuesta.</p>
+</section>
+
+<!-- 5. Sección Tipo de IA (Esta es la que sale en tu línea 10) -->
+<section id="tipo-ia">
+    Usa una IA de tipo <strong>Procesamiento de Lenguaje Natural</strong>.
+</section>
