@@ -489,5 +489,548 @@
     ],
     "fuente": "Colombia Travel – Chocó",
     "url": "https://colombia.travel/es"
+  },
+  {
+    "id": "canon-chicamocha",
+    "nombre": "Cañón del Chicamocha",
+    "depto": "Santander",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "rios",
+      "montanas",
+      "monumentos"
+    ],
+    "tags": [
+      "canon",
+      "rio chicamocha",
+      "teleferico",
+      "miradores",
+      "monumento santandereanidad",
+      "parapente"
+    ],
+    "desc": "El Cañón del Chicamocha es un enorme paisaje de montañas y paredes rocosas modeladas por el río Chicamocha. Sus miradores permiten contemplar la profundidad del cañón y el Parque Nacional del Chicamocha reúne experiencias culturales y de aventura.",
+    "planes": [
+      "Contemplar el cañón desde sus miradores.",
+      "Cruzar el paisaje en el teleférico del Parque Nacional del Chicamocha.",
+      "Conocer el Monumento a la Santandereanidad y consultar las actividades disponibles."
+    ],
+    "fuente": "Colombia Travel – Cañón del Chicamocha",
+    "url": "https://colombia.travel/es/el-majestuoso-canon-del-chicamocha"
+  },
+  {
+    "id": "canon-guejar",
+    "nombre": "Cañón del río Güejar",
+    "depto": "Meta",
+    "region": "Orinoquía",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "rios",
+      "montanas"
+    ],
+    "tags": [
+      "rio guejar",
+      "rafting",
+      "mesetas",
+      "san juan de arama",
+      "saltos de agua",
+      "cañon"
+    ],
+    "desc": "En el sur del Meta, el río Güejar atraviesa un cañón rodeado de vegetación, formaciones rocosas y saltos de agua. Es un destino de naturaleza y aventura que se visita con operadores y guías locales.",
+    "planes": [
+      "Realizar una experiencia de rafting o navegación con operador autorizado.",
+      "Observar los paisajes del cañón y sus formaciones rocosas.",
+      "Consultar condiciones del río y recomendaciones de seguridad antes de viajar."
+    ],
+    "fuente": "Colombia Travel – San Juan de Arama, Mesetas y Lejanías",
+    "url": "https://colombia.travel/es/san-juan-de-arama-mesetas-y-lejanias"
+  },
+  {
+    "id": "san-carlos-cascadas",
+    "nombre": "Cascadas de San Carlos",
+    "depto": "Antioquia",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "cascadas",
+      "rios"
+    ],
+    "tags": [
+      "la chorrera",
+      "el chispero",
+      "charcos naturales",
+      "rio tinto",
+      "san carlos",
+      "antioquia"
+    ],
+    "desc": "San Carlos es un destino antioqueño de ríos, charcos y cascadas escondidas entre la vegetación. Entre sus atractivos se mencionan La Cascada, La Chorrera y El Chispero, además de piscinas naturales.",
+    "planes": [
+      "Visitar cascadas y charcos con orientación local.",
+      "Hacer senderismo y observar aves.",
+      "Consultar el estado de los caminos y las condiciones del agua antes de ingresar."
+    ],
+    "fuente": "Colombia Travel – San Carlos",
+    "url": "https://colombia.travel/es/san-carlos"
+  },
+  {
+    "id": "salto-bordones",
+    "nombre": "Salto de Bordones",
+    "depto": "Huila",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "cascadas",
+      "montanas"
+    ],
+    "tags": [
+      "cascada",
+      "salto de agua",
+      "isnos",
+      "san agustin",
+      "mirador"
+    ],
+    "desc": "El Salto de Bordones es una impresionante caída de agua del sur del Huila, rodeada de montañas y vegetación andina. Es uno de los atractivos naturales que se pueden explorar en los alrededores de San Agustín.",
+    "planes": [
+      "Contemplar la cascada desde los puntos habilitados.",
+      "Combinar la visita con otros paisajes naturales del sur del Huila.",
+      "Organizar el recorrido con información local sobre vías y accesos."
+    ],
+    "fuente": "Colombia Travel – San Agustín",
+    "url": "https://colombia.travel/es/visita-san-agustin-la-capital-arqueologica-de-colombia"
+  },
+  {
+    "id": "salto-mortino",
+    "nombre": "Salto del Mortiño",
+    "depto": "Huila",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "cascadas"
+    ],
+    "tags": [
+      "cascada",
+      "san agustin",
+      "mirador",
+      "sur del huila"
+    ],
+    "desc": "El Salto del Mortiño es una de las cascadas que se encuentran en la zona de San Agustín, un territorio donde los paisajes de montaña y los vestigios arqueológicos conviven en una misma ruta.",
+    "planes": [
+      "Conocer el salto desde los espacios permitidos.",
+      "Explorar otros atractivos naturales de San Agustín.",
+      "Verificar accesos y condiciones del recorrido antes de salir."
+    ],
+    "fuente": "Colombia Travel – San Agustín",
+    "url": "https://colombia.travel/es/visita-san-agustin-la-capital-arqueologica-de-colombia"
+  },
+  {
+    "id": "nevado-del-cocuy",
+    "nombre": "Parque Nacional Natural El Cocuy",
+    "depto": "Boyacá y Arauca",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "montanas"
+    ],
+    "tags": [
+      "sierra nevada del cocuy",
+      "nevados",
+      "alta montaña",
+      "lagunas",
+      "glaciar",
+      "senderismo"
+    ],
+    "desc": "La Sierra Nevada del Cocuy reúne picos de alta montaña, lagunas y paisajes de páramo. El ingreso está regulado y se realiza únicamente por rutas autorizadas, con guía o intérprete habilitado y cumpliendo los requisitos del parque.",
+    "planes": [
+      "Consultar previamente qué senderos están habilitados.",
+      "Contratar guía autorizado y cumplir el registro, la inducción y los requisitos de ingreso.",
+      "Respetar las restricciones ambientales y no salir de los senderos permitidos."
+    ],
+    "fuente": "Colombia Travel – Parque Nacional Natural El Cocuy",
+    "url": "https://colombia.travel/es/encanto/5-parques-nacionales-naturales-de-colombia-para-descubrir"
+  },
+  {
+    "id": "parque-los-nevados",
+    "nombre": "Parque Nacional Natural Los Nevados",
+    "depto": "Caldas, Risaralda, Quindío y Tolima",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "montanas"
+    ],
+    "tags": [
+      "nevado del ruiz",
+      "nevado santa isabel",
+      "paramo",
+      "volcan",
+      "alta montaña",
+      "lagunas"
+    ],
+    "desc": "El Parque Nacional Natural Los Nevados protege ecosistemas de alta montaña de la cordillera Central, con páramos, volcanes, lagunas y paisajes de gran altura. Las condiciones y los accesos pueden cambiar por razones ambientales y de seguridad.",
+    "planes": [
+      "Consultar los sectores y senderos abiertos en los canales oficiales.",
+      "Realizar actividades permitidas con prestadores y guías autorizados.",
+      "Prepararse para el frío, la altura y los cambios del clima."
+    ],
+    "fuente": "Parques Nacionales Naturales de Colombia – Nuestros parques",
+    "url": "https://www.parquesnacionales.gov.co/nuestros-parques/"
+  },
+  {
+    "id": "purace",
+    "nombre": "Parque Nacional Natural Puracé",
+    "depto": "Cauca",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "montanas",
+      "rios"
+    ],
+    "tags": [
+      "volcan purace",
+      "paramo",
+      "nacimiento rio magdalena",
+      "lagunas",
+      "senderismo"
+    ],
+    "desc": "Puracé es un territorio volcánico y de alta montaña en el Cauca. Sus ecosistemas de páramo y lagunas son importantes para el agua del país; en esta zona nacen ríos emblemáticos como el Magdalena, el Cauca y el Caquetá.",
+    "planes": [
+      "Consultar qué sectores y senderos están habilitados.",
+      "Realizar caminatas y observación de naturaleza según las reglas del parque.",
+      "Conocer las recomendaciones de altura, clima y seguridad antes de la visita."
+    ],
+    "fuente": "Colombia Travel – Popayán y Puracé",
+    "url": "https://colombia.travel/es/popayan"
+  },
+  {
+    "id": "desierto-tatacoa",
+    "nombre": "Desierto de la Tatacoa",
+    "depto": "Huila",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "montanas"
+    ],
+    "tags": [
+      "desierto",
+      "formaciones rocosas",
+      "observacion astronomica",
+      "cuzco",
+      "los hoyos",
+      "huila"
+    ],
+    "desc": "El Desierto de la Tatacoa es un paisaje semiárido del Huila, conocido por sus laberintos de tierra rojiza y gris, sus formaciones erosionadas y sus cielos apropiados para la observación astronómica.",
+    "planes": [
+      "Recorrer los sectores de Cuzco y Los Hoyos con orientación local.",
+      "Visitar un observatorio astronómico y consultar sus horarios.",
+      "Llevar protección solar, agua y evitar caminar durante las horas de mayor calor."
+    ],
+    "fuente": "Servicio Geológico Colombiano – Destinos geológicos de Colombia",
+    "url": "https://www2.sgc.gov.co/Noticias/Paginas/5-destinos-imperdibles-de-Colombia-recomendados-por-geologos-del-SGC.aspx"
+  },
+  {
+    "id": "rio-magdalena-estrecho",
+    "nombre": "Estrecho del río Magdalena",
+    "depto": "Huila",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "rios"
+    ],
+    "tags": [
+      "rio magdalena",
+      "san agustin",
+      "estrecho",
+      "paisaje fluvial"
+    ],
+    "desc": "En el sur del Huila, cerca de San Agustín, el río Magdalena pasa por un estrecho rocoso que permite observar de cerca el curso de uno de los ríos más importantes de Colombia.",
+    "planes": [
+      "Visitar el mirador y observar el paso del río desde zonas seguras.",
+      "Combinar la visita con el Parque Arqueológico de San Agustín.",
+      "Respetar las señales y no ingresar a zonas de corriente peligrosa."
+    ],
+    "fuente": "Colombia Travel – San Agustín",
+    "url": "https://colombia.travel/es/visita-san-agustin-la-capital-arqueologica-de-colombia"
+  },
+  {
+    "id": "mompox",
+    "nombre": "Santa Cruz de Mompox",
+    "depto": "Bolívar",
+    "region": "Caribe",
+    "cats": [
+      "historia",
+      "cultura",
+      "monumentos",
+      "rios"
+    ],
+    "tags": [
+      "centro historico",
+      "rio magdalena",
+      "iglesia santa barbara",
+      "filigrana",
+      "arquitectura colonial",
+      "semana santa"
+    ],
+    "desc": "Mompox conserva un centro histórico colonial junto al río Magdalena. Sus iglesias, casonas, plazas y talleres de filigrana permiten conocer la historia comercial y artesanal de esta población ribereña.",
+    "planes": [
+      "Caminar por la Calle Real del Medio y el centro histórico.",
+      "Visitar la Iglesia de Santa Bárbara y otros templos coloniales.",
+      "Conocer talleres de filigrana y recorrer la Ciénaga de Pijiño con operadores locales."
+    ],
+    "fuente": "Colombia Travel – Mompox",
+    "url": "https://colombia.travel/es/mompox"
+  },
+  {
+    "id": "popayan",
+    "nombre": "Popayán, la Ciudad Blanca",
+    "depto": "Cauca",
+    "region": "Andina",
+    "cats": [
+      "historia",
+      "cultura",
+      "monumentos",
+      "ciudad"
+    ],
+    "tags": [
+      "arquitectura colonial",
+      "parque caldas",
+      "torre del reloj",
+      "puente del humilladero",
+      "morro de tulcan",
+      "semana santa"
+    ],
+    "desc": "Popayán es una de las ciudades históricas más antiguas de Colombia. Su centro conserva arquitectura colonial y republicana, plazas, iglesias y monumentos como la Torre del Reloj, el Puente del Humilladero y el Morro de Tulcán.",
+    "planes": [
+      "Recorrer el centro histórico y el Parque Caldas.",
+      "Conocer la Torre del Reloj y el Puente del Humilladero.",
+      "Visitar el Morro de Tulcán y explorar la gastronomía tradicional."
+    ],
+    "fuente": "Colombia Travel – Popayán",
+    "url": "https://colombia.travel/es/popayan"
+  },
+  {
+    "id": "san-agustin",
+    "nombre": "Parque Arqueológico de San Agustín",
+    "depto": "Huila",
+    "region": "Andina",
+    "cats": [
+      "historia",
+      "cultura",
+      "monumentos",
+      "naturaleza"
+    ],
+    "tags": [
+      "esculturas precolombinas",
+      "mesitas",
+      "fuentes ceremoniales",
+      "estatuas de piedra",
+      "arqueologia"
+    ],
+    "desc": "El Parque Arqueológico de San Agustín reúne esculturas monumentales de piedra, montículos funerarios y vestigios de la cultura agustiniana. Es uno de los conjuntos arqueológicos más importantes del país.",
+    "planes": [
+      "Recorrer las Mesitas y los sectores habilitados del parque.",
+      "Visitar el museo y conocer el significado de las esculturas.",
+      "Complementar el viaje con el Alto de los Ídolos y paisajes cercanos."
+    ],
+    "fuente": "Colombia Travel – San Agustín",
+    "url": "https://colombia.travel/es/visita-san-agustin-la-capital-arqueologica-de-colombia"
+  },
+  {
+    "id": "tierradentro",
+    "nombre": "Parque Arqueológico Nacional de Tierradentro",
+    "depto": "Cauca",
+    "region": "Andina",
+    "cats": [
+      "historia",
+      "cultura",
+      "monumentos",
+      "montanas"
+    ],
+    "tags": [
+      "hipogeos",
+      "tumbas subterraneas",
+      "pinturas",
+      "arqueologia",
+      "cultura precolombina"
+    ],
+    "desc": "Tierradentro conserva hipogeos o tumbas subterráneas decoradas con pinturas, construidas por sociedades prehispánicas. El paisaje montañoso y los sitios arqueológicos permiten acercarse a una historia ancestral del Cauca.",
+    "planes": [
+      "Visitar los hipogeos y museos abiertos al público.",
+      "Consultar horarios, condiciones de acceso y recorridos autorizados.",
+      "Respetar las estructuras arqueológicas y las comunidades del territorio."
+    ],
+    "fuente": "Colombia Travel – Macizo Colombiano",
+    "url": "https://colombia.travel/es/donde-ir/macizo-colombiano"
+  },
+  {
+    "id": "ciudad-perdida",
+    "nombre": "Ciudad Perdida (Teyuna)",
+    "depto": "Magdalena",
+    "region": "Caribe",
+    "cats": [
+      "historia",
+      "cultura",
+      "monumentos",
+      "naturaleza",
+      "aventura",
+      "montanas"
+    ],
+    "tags": [
+      "tayrona",
+      "arqueologia",
+      "sierra nevada de santa marta",
+      "caminata",
+      "terrazas de piedra",
+      "camino ancestral"
+    ],
+    "desc": "Ciudad Perdida o Teyuna es un antiguo asentamiento de la cultura Tayrona, construido en la Sierra Nevada de Santa Marta. Sus terrazas, caminos y escaleras de piedra se encuentran en medio de un entorno de selva y montaña.",
+    "planes": [
+      "Planear la caminata de varios días únicamente con operadores autorizados.",
+      "Prepararse físicamente para el recorrido y seguir las indicaciones de los guías.",
+      "Respetar el valor cultural y espiritual del territorio indígena."
+    ],
+    "fuente": "Colombia Travel – Ciudad Perdida",
+    "url": "https://colombia.travel/es/santa-marta/conoce-ciudad-perdida"
+  },
+  {
+    "id": "chorrera-amazonas",
+    "nombre": "La Chorrera, Amazonas",
+    "depto": "Amazonas",
+    "region": "Amazonía",
+    "cats": [
+      "naturaleza",
+      "cultura",
+      "cascadas",
+      "rios"
+    ],
+    "tags": [
+      "cascada",
+      "cuenca igara parana",
+      "comunidades uitoto",
+      "bora",
+      "okaina",
+      "selva"
+    ],
+    "desc": "La Chorrera es un territorio amazónico de gran riqueza natural y cultural, en la cuenca del río Igara Paraná. Allí habitan comunidades indígenas que conservan sus tradiciones y conocimientos del bosque.",
+    "planes": [
+      "Organizar la visita mediante iniciativas y guías comunitarios.",
+      "Conocer la selva y los paisajes de agua con respeto por el territorio.",
+      "Informarse sobre permisos, transporte y acuerdos comunitarios antes de viajar."
+    ],
+    "fuente": "Colombia Travel – La Chorrera",
+    "url": "https://colombia.travel/es/amazonas/la-chorrera"
+  },
+  {
+    "id": "rio-guayabero",
+    "nombre": "Río Guayabero",
+    "depto": "Meta",
+    "region": "Orinoquía",
+    "cats": [
+      "naturaleza",
+      "rios",
+      "aventura"
+    ],
+    "tags": [
+      "la macarena",
+      "cano cristales",
+      "navegacion",
+      "paisaje fluvial",
+      "fauna"
+    ],
+    "desc": "El río Guayabero es una de las rutas fluviales para acercarse a los paisajes de La Macarena y a los recorridos hacia Caño Cristales. Su entorno permite observar vegetación y fauna de la región.",
+    "planes": [
+      "Realizar recorridos fluviales con operadores autorizados.",
+      "Disfrutar los paisajes desde embarcaciones habilitadas.",
+      "Confirmar condiciones del río, temporada y normas ambientales."
+    ],
+    "fuente": "Colombia Travel – Caño Cristales",
+    "url": "https://colombia.travel/es/la-macarena/cano-cristales-una-maravilla-natural"
+  },
+  {
+    "id": "rio-cinco-colores",
+    "nombre": "Caño Cristalitos",
+    "depto": "Meta",
+    "region": "Orinoquía",
+    "cats": [
+      "naturaleza",
+      "rios",
+      "cascadas"
+    ],
+    "tags": [
+      "rio de colores",
+      "sierra de la macarena",
+      "pozos",
+      "cascadas",
+      "macarenia"
+    ],
+    "desc": "Caño Cristalitos forma parte de los atractivos naturales de la zona de La Macarena, cerca de Caño Cristales. Sus aguas, pozos y pequeñas caídas se visitan bajo normas de conservación y acceso regulado.",
+    "planes": [
+      "Consultar temporadas, permisos y cupos con operadores habilitados.",
+      "Visitar únicamente los sectores autorizados y con guía local.",
+      "No usar productos químicos en el agua ni alterar plantas o rocas."
+    ],
+    "fuente": "Parques Nacionales Naturales – Temporada Caño Cristales 2026",
+    "url": "https://www.parquesnacionales.gov.co/sala-prensa/noticias/inicia-temporada-en-cano-cristales-naturalmente-responsable/"
+  },
+  {
+    "id": "salto-tequendama",
+    "nombre": "Salto del Tequendama",
+    "depto": "Cundinamarca",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "historia",
+      "cascadas",
+      "monumentos"
+    ],
+    "tags": [
+      "cascada",
+      "rio bogota",
+      "casa museo",
+      "mirador",
+      "san antonio del tequendama"
+    ],
+    "desc": "El Salto del Tequendama es una cascada formada por el río Bogotá en un paisaje de bosque y montaña. Su entorno también está ligado a relatos históricos y a la antigua construcción conocida como el Hotel del Salto.",
+    "planes": [
+      "Contemplar la caída de agua desde puntos de observación habilitados.",
+      "Conocer la historia del edificio patrimonial cuando tenga acceso autorizado.",
+      "Verificar previamente el estado de los accesos y no acercarse a bordes inseguros."
+    ],
+    "fuente": "Colombia Travel – Naturaleza y aventura en Colombia",
+    "url": "https://colombia.travel/es/naturaleza-y-aventura"
+  },
+  {
+    "id": "cueva-guacharos",
+    "nombre": "Parque Nacional Natural Cueva de los Guácharos",
+    "depto": "Huila y Caquetá",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "montanas",
+      "rios"
+    ],
+    "tags": [
+      "cuevas",
+      "guacharos",
+      "bosque andino",
+      "senderismo",
+      "cavernas"
+    ],
+    "desc": "Cueva de los Guácharos protege bosques andinos, ríos y formaciones cavernarias que sirven de refugio al guácharo, un ave nocturna. Es uno de los parques nacionales más antiguos de Colombia.",
+    "planes": [
+      "Consultar disponibilidad y condiciones de ingreso con Parques Nacionales.",
+      "Realizar senderismo únicamente por rutas autorizadas.",
+      "Respetar las cuevas y evitar ruidos o intervenciones que afecten la fauna."
+    ],
+    "fuente": "Parques Nacionales Naturales de Colombia – Nuestros parques",
+    "url": "https://www.parquesnacionales.gov.co/nuestros-parques/"
   }
 ]

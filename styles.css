@@ -533,3 +533,17 @@ footer{font-family:'Cormorant Garamond',serif;color:#80634a;font-size:13px}
   45%{transform:translate3d(calc(var(--drift)*.45),-48vh,0) rotate(12deg) scale(1.15);opacity:1}
   100%{transform:translate3d(var(--drift),-115vh,0) rotate(38deg) scale(1.35);opacity:0}
 }
+
+
+/* Avioncito de papel al aceptar un destino recomendado */
+.paper-plane-scene{position:fixed;inset:0;z-index:9999;pointer-events:none;overflow:hidden;background:radial-gradient(ellipse at 50% 55%,rgba(255,250,242,.28),transparent 55%);}
+.paper-plane{position:absolute;left:-12%;top:58%;font-family:Georgia,serif;font-size:clamp(58px,9vw,112px);font-weight:700;color:#76578f;text-shadow:3px 5px 0 rgba(255,255,255,.9),0 12px 24px rgba(80,54,102,.22);transform:rotate(-28deg);animation:paperFlight 3.15s cubic-bezier(.2,.7,.25,1) forwards;}
+.plane-trail{position:absolute;left:-10%;top:64%;width:65%;height:3px;border-top:3px dashed rgba(185,133,155,.8);border-radius:50%;transform:rotate(-22deg);animation:trailFlight 3.1s ease-out forwards;}
+.plane-star{position:absolute;color:#c08aa5;font-size:clamp(25px,4vw,46px);animation:starPop 1.8s ease-out forwards;}
+.plane-star-one{left:62%;top:28%;}.plane-star-two{left:76%;top:55%;animation-delay:.35s;}
+.plane-note{position:absolute;left:50%;top:76%;transform:translate(-50%,20px);padding:12px 22px;border:1px solid #d8c5dc;background:rgba(255,252,246,.94);color:#665276;border-radius:30px;font-family:'Playfair Display',serif;font-size:clamp(16px,2vw,23px);box-shadow:0 8px 30px rgba(80,57,105,.12);white-space:nowrap;opacity:0;animation:noteAppear .7s 1.1s ease forwards;}
+@keyframes paperFlight{0%{left:-15%;top:68%;transform:rotate(-28deg) scale(.55)}45%{left:43%;top:25%;transform:rotate(-12deg) scale(1.15)}100%{left:112%;top:8%;transform:rotate(8deg) scale(.72)}}
+@keyframes trailFlight{0%{opacity:0;left:-20%;top:75%;width:15%}35%{opacity:1}100%{opacity:0;left:58%;top:18%;width:48%}}
+@keyframes starPop{0%{opacity:0;transform:scale(.2) rotate(-35deg)}35%{opacity:1;transform:scale(1.35) rotate(15deg)}100%{opacity:0;transform:scale(.7) rotate(45deg)}}
+@keyframes noteAppear{to{opacity:1;transform:translate(-50%,0)}}
+@media(prefers-reduced-motion:reduce){.paper-plane,.plane-trail,.plane-star,.plane-note{animation-duration:.01ms!important;animation-iteration-count:1!important}}

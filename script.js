@@ -1,5 +1,6 @@
 let destinos = [];
 let lastQuestion = "";
+let destinoPendiente = null;
 const messages = document.getElementById("messages");
 const form = document.getElementById("chatForm");
 const input = document.getElementById("userInput");
@@ -34,7 +35,11 @@ function construirDiccionario() {
     "pareja","bonitos","bonitas","colombia","departamento","region","hacer",
     "puedo","quiero","donde","adonde","viaje","viajar","montaña","montanas",
     "cascadas","pueblos","magicos","magicos","ayudar","hola","gracias",
-    "antioquia","guajira","caribe","andina","pacifica","amazonia","orinoquia"
+    "antioquia","guajira","caribe","andina","pacifica","amazonia","orinoquia",
+    "rio","rios","cascada","cascadas","montana","montanas","nevado","nevados",
+    "monumento","monumentos","historico","historicos","arqueologia","canyon","canon",
+    "cocuy","purace","tatacoa","chicamocha","guejar","magdalena","guayabero",
+    "tequendama","bordones","mortino","mompox","popayan","tierradentro","perdida"
   ];
   const datos = destinos.flatMap(d => [
     d.nombre, d.depto, d.region, ...(d.cats || []), ...(d.tags || [])
@@ -114,6 +119,7 @@ function agregarRespuesta(texto, destinosFuente = [], sinDatos = false, efecto =
   fila.innerHTML = `<div class="message-avatar">✳</div><div class="message-content"><div class="bubble bot-bubble">${escapar(texto)}</div>${extra}${nota}</div>`;
   messages.appendChild(fila);
   if (efecto === "bienvenida") lanzarDecoracion();
+  if (efecto === "viaje") lanzarAvionDePapel();
   fila.querySelector(".retry-button")?.addEventListener("click", () => enviarPregunta(lastQuestion));
   bajarChat();
 }
@@ -143,10 +149,24 @@ function lanzarDecoracion() {
   window.setTimeout(() => capa.remove(), 9000);
 }
 
+function lanzarAvionDePapel() {
+  const capa = document.createElement("div");
+  capa.className = "paper-plane-scene";
+  capa.setAttribute("aria-hidden", "true");
+  capa.innerHTML = '<span class="paper-plane">➤</span><span class="plane-trail"></span><span class="plane-star plane-star-one">✦</span><span class="plane-star plane-star-two">✧</span><span class="plane-note">¡Rumbo a una nueva aventura!</span>';
+  document.body.appendChild(capa);
+  window.setTimeout(() => capa.remove(), 3600);
+}
+
 const saludos = ["hola", "holi", "buenas", "buenos dias", "buenas tardes", "buenas noches", "hey", "hello"];
 const categorias = [
   {label:"playa", keys:["playa","playas","mar","costa","isla","islas","caribe"]},
-  {label:"naturaleza", keys:["naturaleza","selva","montana","montanas","paisaje","aves","cascada","bosque","ecoturismo"]},
+  {label:"rios", keys:["rio","rios","río","ríos","river","caudal","navegacion","navegar"]},
+  {label:"cascadas", keys:["cascada","cascadas","salto de agua","chorro","caida de agua","pozos naturales"]},
+  {label:"montanas", keys:["montana","montanas","montaña","montañas","nevado","nevados","volcan","volcanes","paramo","paramos","alta montana","cordillera"]},
+  {label:"monumentos", keys:["monumento","monumentos","estatua","estatuas","escultura","esculturas","fortaleza","castillo","puente historico"]},
+  {label:"sitios historicos", keys:["sitio historico","sitios historicos","historia","historico","historica","arqueologia","arqueologico","colonial","museo","patrimonio","pueblo"]},
+  {label:"naturaleza", keys:["naturaleza","selva","paisaje","aves","bosque","ecoturismo","cueva","desierto"]},
   {label:"aventura", keys:["aventura","extremo","rafting","senderismo","caminata","caminar","adrenalina","deporte"]},
   {label:"historia", keys:["historia","historico","historica","cultura","colonial","museo","patrimonio","pueblo"]},
   {label:"gastronomia", keys:["gastronomia","comida","comer","platos","comida tipica"]}
@@ -155,7 +175,11 @@ const categorias = [
 function recomendarPorPreferencia(q) {
   const cat = categorias.find(c => c.keys.some(k => q.includes(normalizar(k))));
   if (!cat) return null;
-  const encontrados = destinos.filter(d => (d.cats || []).some(c => normalizar(c) === normalizar(cat.label)) || (d.tags || []).some(t => cat.keys.some(k => normalizar(t).includes(normalizar(k))))).slice(0, 3);
+  const encontrados = destinos.filter(d =>
+    (d.cats || []).some(c => normalizar(c) === normalizar(cat.label)) ||
+    (d.tags || []).some(t => cat.keys.some(k => normalizar(t).includes(normalizar(k)))) ||
+    (cat.label === "sitios historicos" && (d.cats || []).some(c => ["historia","cultura"].includes(normalizar(c))))
+  ).slice(0, 4);
   if (!encontrados.length) return null;
   const nombres = encontrados.map(d => d.nombre).join(", ");
   const intro = {
@@ -187,6 +211,15 @@ function buscarRespuesta(pregunta) {
   }
   if (/que puedes hacer|en que me puedes ayudar|como puedes ayudar|que sabes hacer|ayudame/.test(q)) {
     return {texto:"Puedo ayudarte a descubrir destinos colombianos y darte ideas según tus gustos. Por ejemplo, puedo recomendarte playas, pueblos, lugares de naturaleza o aventura; contarte qué visitar en una ciudad o departamento; y sugerirte planes según el tipo de viaje que imaginas.\n\nPuedes empezar diciéndome: «Quiero un viaje tranquilo», «Me gustan los pueblos» o «¿Qué puedo visitar en Antioquia?». ✧", fuentes:[]};
+  }
+
+  // Si la persona acepta una recomendación, Brújula inicia el pequeño viaje.
+  if (destinoPendiente && /^(si|claro|vale|acepto|me gusta|me encanta|vamos|de una|hagamoslo|quiero ir|ese|esa|perfecto|listo)(\b|\s|!|\.)/.test(q)) {
+    const elegido = destinoPendiente;
+    destinoPendiente = null;
+    return {texto:`¡Yujuuu! 💌 Entonces nuestro próximo destino será ${elegido.nombre}, en ${elegido.depto}.
+
+✈️ ¡Que comience esta aventura! Guarda esta pequeña ruta en tu corazón y revisa la fuente oficial para preparar tu visita.`, fuentes:[elegido], efecto:"viaje"};
   }
 
   // Consulta por lugar o departamento: prioriza coincidencias con el nombre del destino.
@@ -244,7 +277,10 @@ async function enviarPregunta(pregunta) {
   await new Promise(resolve => setTimeout(resolve, 850));
   const resultado = buscarRespuesta(texto);
   quitarEspera();
-  if (resultado) agregarRespuesta(resultado.texto, resultado.fuentes || [], false, resultado.efecto || "");
+  if (resultado) {
+    if (resultado.fuentes?.length && resultado.efecto !== "viaje") destinoPendiente = resultado.fuentes[0];
+    agregarRespuesta(resultado.texto, resultado.fuentes || [], false, resultado.efecto || "");
+  }
   else agregarRespuesta("¡Me encantaría ayudarte con eso! 🌷 Por ahora no encuentro información suficiente en mi atlas para responder con seguridad. Puedes preguntarme por un destino colombiano, una ciudad, un departamento, una región o por recomendaciones de playas, naturaleza, pueblos y aventura. También puedes reformular tu pregunta.", [], true);
   sendButton.disabled = false;
   input.disabled = false;
@@ -256,6 +292,7 @@ document.querySelectorAll("[data-question]").forEach(b => b.addEventListener("cl
 document.getElementById("newChat").addEventListener("click", () => {
   messages.innerHTML = `<div class="message-row bot-row"><div class="message-avatar">✳</div><div class="message-content"><div class="bubble bot-bubble">¡Hola de nuevo! 🌙 Tengo el mapa listo. ¿Qué rincón de Colombia te gustaría descubrir ahora? ¿En qué te puedo ayudar?</div>${avisoLimites()}</div></div>`;
   lastQuestion = "";
+  destinoPendiente = null;
   input.value = "";
   input.focus();
 });
