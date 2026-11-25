@@ -1,0 +1,493 @@
+[
+  {
+    "id": "cartagena",
+    "nombre": "Cartagena de Indias",
+    "depto": "Bolívar",
+    "region": "Caribe",
+    "cats": [
+      "playa",
+      "historia",
+      "cultura"
+    ],
+    "tags": [
+      "murallas",
+      "centro historico",
+      "arquitectura",
+      "mar"
+    ],
+    "desc": "Cartagena combina calles coloniales, plazas, murallas y playas cercanas. Su centro histórico y sus fortificaciones hacen parte del Patrimonio Mundial de la UNESCO.",
+    "planes": [
+      "Recorrer la Ciudad Amurallada y sus plazas.",
+      "Conocer el Castillo de San Felipe de Barajas.",
+      "Visitar Getsemaní y sus calles llenas de arte."
+    ],
+    "fuente": "UNESCO – Puerto, fortalezas y conjunto monumental de Cartagena",
+    "url": "https://whc.unesco.org/en/list/285/"
+  },
+  {
+    "id": "santa-marta",
+    "nombre": "Santa Marta",
+    "depto": "Magdalena",
+    "region": "Caribe",
+    "cats": [
+      "playa",
+      "naturaleza",
+      "historia"
+    ],
+    "tags": [
+      "mar",
+      "sierra nevada",
+      "ciudad"
+    ],
+    "desc": "Santa Marta es una ciudad caribeña que sirve como punto de partida para conocer playas, montañas y espacios naturales del Magdalena.",
+    "planes": [
+      "Caminar por el centro histórico.",
+      "Visitar playas de la zona.",
+      "Explorar sus alrededores naturales."
+    ],
+    "fuente": "Colombia Travel – Santa Marta",
+    "url": "https://colombia.travel/es/santa-marta"
+  },
+  {
+    "id": "tayrona",
+    "nombre": "Parque Nacional Natural Tayrona",
+    "depto": "Magdalena",
+    "region": "Caribe",
+    "cats": [
+      "playa",
+      "naturaleza",
+      "aventura"
+    ],
+    "tags": [
+      "parque nacional",
+      "senderismo",
+      "biodiversidad"
+    ],
+    "desc": "El Tayrona protege ecosistemas terrestres y marinos en el Caribe colombiano. Es conocido por sus senderos, playas y biodiversidad.",
+    "planes": [
+      "Recorrer senderos autorizados.",
+      "Disfrutar los paisajes costeros en zonas permitidas.",
+      "Conocer las recomendaciones oficiales antes de la visita."
+    ],
+    "fuente": "Parques Nacionales Naturales de Colombia – Tayrona",
+    "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-tayrona/"
+  },
+  {
+    "id": "minca",
+    "nombre": "Minca",
+    "depto": "Magdalena",
+    "region": "Caribe",
+    "cats": [
+      "naturaleza",
+      "aventura"
+    ],
+    "tags": [
+      "montaña",
+      "cascadas",
+      "aves",
+      "cafe"
+    ],
+    "desc": "Minca es un destino de montaña en la Sierra Nevada de Santa Marta, reconocido por sus paisajes verdes, cascadas, café y observación de aves.",
+    "planes": [
+      "Visitar cascadas y pozos naturales.",
+      "Conocer fincas cafeteras.",
+      "Realizar caminatas y observar aves."
+    ],
+    "fuente": "Colombia Travel – Minca",
+    "url": "https://colombia.travel/es"
+  },
+  {
+    "id": "cabo-de-la-vela",
+    "nombre": "Cabo de la Vela",
+    "depto": "La Guajira",
+    "region": "Caribe",
+    "cats": [
+      "playa",
+      "naturaleza",
+      "cultura",
+      "aventura"
+    ],
+    "tags": [
+      "wayuu",
+      "desierto",
+      "mar",
+      "guajira"
+    ],
+    "desc": "El Cabo de la Vela reúne paisajes desérticos y mar Caribe. Es un lugar importante para acercarse, con respeto, a la cultura y el territorio Wayuu.",
+    "planes": [
+      "Contemplar el atardecer en el Pilón de Azúcar.",
+      "Conocer sus playas y paisajes desérticos.",
+      "Informarse sobre turismo responsable con comunidades locales."
+    ],
+    "fuente": "Colombia Travel – La Guajira",
+    "url": "https://colombia.travel/es"
+  },
+  {
+    "id": "punta-gallinas",
+    "nombre": "Punta Gallinas",
+    "depto": "La Guajira",
+    "region": "Caribe",
+    "cats": [
+      "naturaleza",
+      "playa",
+      "aventura"
+    ],
+    "tags": [
+      "desierto",
+      "dunas",
+      "wayuu",
+      "guajira"
+    ],
+    "desc": "Punta Gallinas, en el extremo norte de Suramérica, ofrece paisajes de dunas, acantilados y mar. El acceso requiere planificación y orientación local.",
+    "planes": [
+      "Conocer las dunas de Taroa con operadores locales.",
+      "Visitar miradores y playas según las condiciones del lugar.",
+      "Planear el transporte con anticipación."
+    ],
+    "fuente": "Colombia Travel – La Guajira",
+    "url": "https://colombia.travel/es"
+  },
+  {
+    "id": "san-andres",
+    "nombre": "San Andrés",
+    "depto": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "region": "Caribe",
+    "cats": [
+      "playa",
+      "naturaleza",
+      "aventura"
+    ],
+    "tags": [
+      "mar de siete colores",
+      "snorkel",
+      "isla"
+    ],
+    "desc": "San Andrés es una isla caribeña conocida por sus aguas de tonos azules y verdes, playas y actividades acuáticas.",
+    "planes": [
+      "Conocer las playas de la isla.",
+      "Practicar snorkel en lugares autorizados.",
+      "Recorrer la isla y sus miradores."
+    ],
+    "fuente": "Colombia Travel – San Andrés",
+    "url": "https://colombia.travel/es/san-andres"
+  },
+  {
+    "id": "providencia",
+    "nombre": "Providencia",
+    "depto": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "region": "Caribe",
+    "cats": [
+      "playa",
+      "naturaleza",
+      "aventura"
+    ],
+    "tags": [
+      "arrecife",
+      "mar",
+      "buceo",
+      "isla"
+    ],
+    "desc": "Providencia es una isla del Caribe colombiano reconocida por sus paisajes y ecosistemas marinos, incluido el entorno de la Reserva de Biosfera Seaflower.",
+    "planes": [
+      "Conocer playas y bahías.",
+      "Explorar el entorno marino con operadores autorizados.",
+      "Visitar Santa Catalina y sus paisajes."
+    ],
+    "fuente": "UNESCO – Seaflower Biosphere Reserve",
+    "url": "https://www.unesco.org/en/mab"
+  },
+  {
+    "id": "medellin",
+    "nombre": "Medellín",
+    "depto": "Antioquia",
+    "region": "Andina",
+    "cats": [
+      "cultura",
+      "historia",
+      "ciudad",
+      "gastronomia"
+    ],
+    "tags": [
+      "museos",
+      "arte",
+      "metro",
+      "antioquia"
+    ],
+    "desc": "Medellín ofrece museos, espacios culturales, parques y recorridos urbanos. Su sistema de transporte conecta distintos puntos de interés.",
+    "planes": [
+      "Visitar la Plaza Botero y el Museo de Antioquia.",
+      "Conocer la Comuna 13 mediante recorridos responsables.",
+      "Recorrer parques y espacios culturales."
+    ],
+    "fuente": "Colombia Travel – Medellín",
+    "url": "https://colombia.travel/es/medellin"
+  },
+  {
+    "id": "guatape",
+    "nombre": "Guatapé y El Peñol",
+    "depto": "Antioquia",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "cultura"
+    ],
+    "tags": [
+      "embalse",
+      "piedra",
+      "pueblo",
+      "antioquia"
+    ],
+    "desc": "Guatapé es conocido por sus zócalos coloridos y el paisaje del embalse. Cerca se encuentra la Piedra del Peñol, un mirador emblemático de la región.",
+    "planes": [
+      "Caminar por las calles y plazas de Guatapé.",
+      "Visitar la Piedra del Peñol y su mirador.",
+      "Disfrutar el paisaje del embalse."
+    ],
+    "fuente": "Colombia Travel – Antioquia",
+    "url": "https://colombia.travel/es"
+  },
+  {
+    "id": "jardin",
+    "nombre": "Jardín",
+    "depto": "Antioquia",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "cultura",
+      "historia"
+    ],
+    "tags": [
+      "pueblo patrimonio",
+      "montaña",
+      "cafe",
+      "antioquia"
+    ],
+    "desc": "Jardín es un municipio antioqueño de arquitectura tradicional, montañas y paisajes cafeteros. Su parque principal es uno de sus lugares más representativos.",
+    "planes": [
+      "Visitar el parque principal y la basílica.",
+      "Conocer caminos rurales y paisajes cafeteros.",
+      "Explorar atractivos naturales con guías locales."
+    ],
+    "fuente": "Red Turística de Pueblos Patrimonio de Colombia",
+    "url": "https://pueblospatrimonio.com.co/"
+  },
+  {
+    "id": "salento",
+    "nombre": "Salento",
+    "depto": "Quindío",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "cultura",
+      "aventura"
+    ],
+    "tags": [
+      "cafe",
+      "palmas",
+      "eje cafetero",
+      "pueblo"
+    ],
+    "desc": "Salento es uno de los destinos tradicionales del Paisaje Cultural Cafetero. Es conocido por sus casas coloridas y su cercanía al Valle de Cocora.",
+    "planes": [
+      "Caminar por la Calle Real.",
+      "Conocer miradores del municipio.",
+      "Organizar una visita al Valle de Cocora."
+    ],
+    "fuente": "UNESCO – Paisaje Cultural Cafetero de Colombia",
+    "url": "https://whc.unesco.org/en/list/1121/"
+  },
+  {
+    "id": "cocora",
+    "nombre": "Valle de Cocora",
+    "depto": "Quindío",
+    "region": "Andina",
+    "cats": [
+      "naturaleza",
+      "aventura"
+    ],
+    "tags": [
+      "palma de cera",
+      "senderismo",
+      "montaña"
+    ],
+    "desc": "El Valle de Cocora es conocido por sus paisajes de montaña y la palma de cera, árbol nacional de Colombia. Es un lugar popular para caminatas y contemplación de naturaleza.",
+    "planes": [
+      "Realizar caminatas por senderos habilitados.",
+      "Observar la palma de cera sin dañarla.",
+      "Consultar condiciones y recomendaciones antes del recorrido."
+    ],
+    "fuente": "Parques Nacionales Naturales de Colombia – Palma de cera y conservación",
+    "url": "https://www.parquesnacionales.gov.co/"
+  },
+  {
+    "id": "bogota",
+    "nombre": "Bogotá",
+    "depto": "Bogotá D. C.",
+    "region": "Andina",
+    "cats": [
+      "cultura",
+      "historia",
+      "gastronomia",
+      "ciudad"
+    ],
+    "tags": [
+      "museos",
+      "monserrate",
+      "centro historico",
+      "capital"
+    ],
+    "desc": "Bogotá reúne museos, arquitectura histórica, gastronomía y espacios culturales. La Candelaria y Monserrate son dos de sus lugares más visitados.",
+    "planes": [
+      "Recorrer el centro histórico de La Candelaria.",
+      "Visitar el Museo del Oro.",
+      "Conocer Monserrate y sus vistas de la ciudad."
+    ],
+    "fuente": "Colombia Travel – Bogotá",
+    "url": "https://colombia.travel/es/bogota"
+  },
+  {
+    "id": "villa-de-leyva",
+    "nombre": "Villa de Leyva",
+    "depto": "Boyacá",
+    "region": "Andina",
+    "cats": [
+      "historia",
+      "cultura",
+      "naturaleza"
+    ],
+    "tags": [
+      "arquitectura colonial",
+      "plaza",
+      "pueblo patrimonio"
+    ],
+    "desc": "Villa de Leyva conserva arquitectura colonial y una de las plazas principales más reconocidas del país. En sus alrededores hay paisajes y sitios paleontológicos.",
+    "planes": [
+      "Recorrer la Plaza Mayor y sus calles.",
+      "Visitar museos y espacios culturales.",
+      "Explorar atractivos naturales cercanos."
+    ],
+    "fuente": "Red Turística de Pueblos Patrimonio de Colombia",
+    "url": "https://pueblospatrimonio.com.co/"
+  },
+  {
+    "id": "cano-cristales",
+    "nombre": "Caño Cristales",
+    "depto": "Meta",
+    "region": "Orinoquía",
+    "cats": [
+      "naturaleza",
+      "aventura"
+    ],
+    "tags": [
+      "rio",
+      "sierra de la macarena",
+      "biodiversidad"
+    ],
+    "desc": "Caño Cristales se encuentra en la Sierra de la Macarena y es conocido por los colores que adquiere su vegetación acuática en ciertas temporadas y condiciones.",
+    "planes": [
+      "Consultar temporadas y permisos de ingreso.",
+      "Visitar con operadores autorizados.",
+      "Seguir las normas de conservación del área."
+    ],
+    "fuente": "Parques Nacionales Naturales de Colombia – Sierra de la Macarena",
+    "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-sierra-de-la-macarena/"
+  },
+  {
+    "id": "leticia",
+    "nombre": "Leticia y el Amazonas",
+    "depto": "Amazonas",
+    "region": "Amazonía",
+    "cats": [
+      "naturaleza",
+      "aventura",
+      "cultura"
+    ],
+    "tags": [
+      "selva",
+      "rio amazonas",
+      "fauna",
+      "comunidades"
+    ],
+    "desc": "Leticia es una puerta de entrada a experiencias de naturaleza y cultura en la Amazonía colombiana. Los recorridos deben realizarse con respeto por las comunidades y ecosistemas.",
+    "planes": [
+      "Realizar recorridos guiados por la selva.",
+      "Conocer el río Amazonas y sus alrededores.",
+      "Informarse sobre turismo comunitario y responsable."
+    ],
+    "fuente": "Colombia Travel – Amazonas",
+    "url": "https://colombia.travel/es"
+  },
+  {
+    "id": "san-gil",
+    "nombre": "San Gil",
+    "depto": "Santander",
+    "region": "Andina",
+    "cats": [
+      "aventura",
+      "naturaleza"
+    ],
+    "tags": [
+      "rafting",
+      "deportes extremos",
+      "santander"
+    ],
+    "desc": "San Gil es conocido como un destino de aventura en Santander, con actividades al aire libre en ríos, montañas y paisajes naturales.",
+    "planes": [
+      "Consultar operadores certificados para rafting.",
+      "Explorar senderos y atractivos naturales.",
+      "Elegir actividades de acuerdo con la experiencia y condiciones."
+    ],
+    "fuente": "Colombia Travel – Santander",
+    "url": "https://colombia.travel/es"
+  },
+  {
+    "id": "barichara",
+    "nombre": "Barichara",
+    "depto": "Santander",
+    "region": "Andina",
+    "cats": [
+      "historia",
+      "cultura",
+      "naturaleza"
+    ],
+    "tags": [
+      "pueblo patrimonio",
+      "arquitectura",
+      "camino real"
+    ],
+    "desc": "Barichara es reconocido por sus calles empedradas, arquitectura tradicional y paisajes de Santander. Es un destino para caminar y conocer su patrimonio.",
+    "planes": [
+      "Recorrer sus calles y talleres artesanales.",
+      "Conocer el Camino Real hacia Guane si las condiciones lo permiten.",
+      "Visitar miradores y espacios culturales."
+    ],
+    "fuente": "Red Turística de Pueblos Patrimonio de Colombia",
+    "url": "https://pueblospatrimonio.com.co/"
+  },
+  {
+    "id": "nuqui",
+    "nombre": "Nuquí",
+    "depto": "Chocó",
+    "region": "Pacífica",
+    "cats": [
+      "naturaleza",
+      "playa",
+      "aventura"
+    ],
+    "tags": [
+      "ballenas",
+      "selva",
+      "pacifico",
+      "avistamiento"
+    ],
+    "desc": "Nuquí combina selva húmeda, playas del Pacífico y una gran riqueza natural. En ciertas temporadas es posible realizar avistamiento responsable de ballenas.",
+    "planes": [
+      "Consultar la temporada de avistamiento antes de viajar.",
+      "Conocer playas y senderos con guías locales.",
+      "Respetar las distancias y normas para observar fauna."
+    ],
+    "fuente": "Colombia Travel – Chocó",
+    "url": "https://colombia.travel/es"
+  }
+]

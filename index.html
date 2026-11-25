@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5efe5">
+  <meta name="description" content="Brújula Colombia: una guía para descubrir lugares, historias y experiencias de Colombia.">
+  <title>Brújula Colombia | Bitácora de viaje</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-sparkle sparkle-a">✧</div><div class="page-sparkle sparkle-b">✦</div><div class="page-sparkle sparkle-c">✧</div>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Brújula Colombia, inicio">
+        <span class="brand-mark">✳</span>
+        <span><strong>brújula</strong><small>COLOMBIA · BITÁCORA DE VIAJE</small></span>
+      </a>
+      <div class="topbar-motto">Hay lugares que parecen estar esperándote <span>✧</span></div>
+      <div class="topbar-right"><span class="online-dot"></span><span>Tu compañera de viaje</span></div>
+    </header>
+
+    <main class="travel-layout" id="inicio">
+      <aside class="ideas-panel">
+        <p class="eyebrow">ABRE TU MAPA</p>
+        <h1>¿Qué aventura<br><em>imaginamos hoy?</em></h1>
+        <p class="intro-copy">Un país lleno de caminos, colores y pequeñas maravillas. Elige una idea para comenzar a explorar.</p>
+        <div class="side-divider"><span>✦</span><span>Ideas para tu viaje</span><span>✦</span></div>
+        <div class="suggestions-list" id="suggestions">
+          <button class="suggestion" data-question="Recomiéndame playas bonitas y tranquilas en Colombia"><span class="suggestion-icon pink">≈</span><span><b>Un viaje junto al mar</b><small class="question-preview">“Recomiéndame playas bonitas y tranquilas en Colombia”</small></span><i>↗</i></button>
+          <button class="suggestion" data-question="¿Qué lugares de naturaleza me recomiendas?"><span class="suggestion-icon green">❋</span><span><b>Perderme en la naturaleza</b><small class="question-preview">“¿Qué lugares de naturaleza me recomiendas?”</small></span><i>↗</i></button>
+          <button class="suggestion" data-question="Recomiéndame destinos de aventura en Colombia"><span class="suggestion-icon blue">⌁</span><span><b>Vivir una aventura</b><small class="question-preview">“Recomiéndame destinos de aventura en Colombia”</small></span><i>↗</i></button>
+          <button class="suggestion" data-question="Quiero conocer pueblos bonitos con historia y cultura"><span class="suggestion-icon lilac">⌂</span><span><b>Visitar pueblos mágicos</b><small class="question-preview">“Quiero conocer pueblos bonitos con historia y cultura”</small></span><i>↗</i></button>
+          <button class="suggestion" data-question="¿Qué lugares puedo visitar en Antioquia?"><span class="suggestion-icon yellow">☼</span><span><b>Explorar Antioquia</b><small class="question-preview">“¿Qué lugares puedo visitar en Antioquia?”</small></span><i>↗</i></button>
+          <button class="suggestion" data-question="¿Qué puedo conocer en La Guajira?"><span class="suggestion-icon purple">✧</span><span><b>Descubrir La Guajira</b><small class="question-preview">“¿Qué puedo conocer en La Guajira?”</small></span><i>↗</i></button>
+        </div>
+        <div class="postcard-note"><span class="postcard-stamp">✳</span><span><b>Una nota para el camino</b><small>No importa si aún no tienes un destino. Podemos encontrarlo juntos.</small></span></div>
+      </aside>
+
+      <section class="conversation-panel" aria-label="Chat con Brújula">
+        <div class="conversation-top">
+          <div class="bot-avatar">✳</div>
+          <div class="bot-heading"><strong>Brújula</strong><small><span class="online-dot"></span> Lista para explorar contigo</small></div>
+          <span class="chat-location">✧ Colombia, mi tierra querida</span>
+          <button id="newChat" class="new-chat" type="button" title="Nueva conversación">↻ <span>Empezar de nuevo</span></button>
+        </div>
+        <div class="chat-welcome-ribbon"><span>✧</span> Un saludo, una pregunta o un destino… aquí comienza tu viaje <span>✧</span></div>
+        <div class="messages" id="messages" aria-live="polite">
+          <div class="message-row bot-row">
+            <div class="message-avatar">✳</div>
+            <div class="message-content">
+              <div class="bubble bot-bubble">¡Hola, viajero/a! 🌙 Soy Brújula, tu compañera para descubrir Colombia. Puedes contarme qué te gusta, preguntarme cómo estoy o pedirme recomendaciones. ¿En qué te puedo ayudar hoy?</div>
+              <div class="disclaimer">ⓘ Soy una guía de consulta basada en una colección de destinos. Verifica horarios, precios y condiciones con fuentes oficiales antes de viajar.</div>
+            </div>
+          </div>
+        </div>
+        <div class="chat-bottom">
+          <div class="quick-prompts">
+            <span class="quick-label">Tal vez quieras preguntar:</span>
+            <button data-question="¿Qué destino me recomiendas para un viaje tranquilo?">✧ “¿Qué destino me recomiendas para un viaje tranquilo?”</button>
+            <button data-question="¿Qué puedo hacer en Medellín?">⌂ “¿Qué puedo hacer en Medellín?”</button>
+            <button data-question="¿Qué lugar es ideal para ir en pareja?">♡ “¿Qué lugar es ideal para ir en pareja?”</button>
+          </div>
+          <form class="composer" id="chatForm">
+            <label class="sr-only" for="userInput">Escribe tu pregunta</label>
+            <textarea id="userInput" rows="1" placeholder="Escribe aquí lo que te gustaría descubrir..." maxlength="500"></textarea>
+            <button class="send-button" type="submit" aria-label="Enviar pregunta">➤</button>
+          </form>
+          <p class="composer-note">Presiona Enter para enviar · Shift + Enter para escribir otra línea</p>
+        </div>
+      </section>
+
+      <aside class="journey-panel">
+        <div class="mini-illustration" aria-hidden="true"><span class="moon">☾</span><span class="tiny-star t1">✦</span><span class="tiny-star t2">✧</span><span class="hill hill-one"></span><span class="hill hill-two"></span><span class="trail">〰</span></div>
+        <p class="eyebrow">PEQUEÑO ATLAS</p>
+        <h2>Colombia tiene<br>mucho por contar</h2>
+        <p class="atlas-copy">Desde el azul del Caribe hasta el verde profundo del Amazonas, cada región guarda una historia diferente.</p>
+        <div class="region-list">
+          <div><span class="region-symbol">☼</span><span><b>Caribe</b><small>Mar, islas y desiertos</small></span></div>
+          <div><span class="region-symbol">♧</span><span><b>Andina</b><small>Montañas y pueblos</small></span></div>
+          <div><span class="region-symbol">❋</span><span><b>Pacífica</b><small>Selva y océano</small></span></div>
+          <div><span class="region-symbol">✧</span><span><b>Amazonía</b><small>Ríos y vida natural</small></span></div>
+          <div><span class="region-symbol">⌁</span><span><b>Orinoquía</b><small>Llanos y horizontes</small></span></div>
+        </div>
+        <div class="atlas-quote">“El mundo es un libro y quienes no viajan leen solo una página”.<small>— Una invitación a explorar</small></div>
+      </aside>
+    </main>
+    <footer>Hecho con cariño para quienes sueñan con descubrir Colombia <span>♡</span></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
